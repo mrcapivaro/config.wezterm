@@ -8,7 +8,7 @@ config.window_close_confirmation = "NeverPrompt"
 -- Fonts
 config.font = wezterm.font({
   -- family = "FiraCode Nerd Font Mono",
-  family = "FantasqueSansM Nerd Font Propo",
+  family = "FantasqueSansM Nerd Font Mono",
   weight = 500,
   -- stretch = "Condensed",
 })
