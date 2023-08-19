@@ -24,7 +24,7 @@ config.integrated_title_button_style = "Windows"
 
 -- Default Shell
 config.default_prog = {
-  "C:\\Users\\MrCapivaro\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe",
+  "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
 }
 
 return config
