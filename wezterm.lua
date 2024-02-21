@@ -1,30 +1,17 @@
+local M = {}
 local wezterm = require("wezterm")
-local config = {}
 
--- Misc
-config.color_scheme = "Catppuccin Mocha"
-config.dpi = 96.0
-config.window_close_confirmation = "NeverPrompt"
--- Fonts
-config.font = wezterm.font({
-  -- family = "FiraCode Nerd Font Mono",
-  family = "FantasqueSansM Nerd Font Mono",
-  weight = 500,
-  -- stretch = "Condensed",
+M.color_scheme = "Catppuccin Mocha"
+M.window_close_confirmation = "NeverPrompt"
+M.font = wezterm.font({
+  family = "FantasqueSansM Nerd Font",
+  weight = 400,
 })
-config.font_size = 16
--- Background
--- config.window_background_opacity = 0.9
--- config.text_background_opacity = 0.9
--- Tab Bar
-config.use_fancy_tab_bar = false
-config.tab_bar_at_bottom = false
-config.window_decorations = "INTEGRATED_BUTTONS" .. "|" .. "RESIZE"
-config.integrated_title_button_style = "Windows"
+M.font_size = 15
+M.window_background_opacity = 0.95
+M.use_fancy_tab_bar = false
+M.tab_bar_at_bottom = false
+M.window_decorations = "INTEGRATED_BUTTONS" .. "|" .. "RESIZE"
+M.integrated_title_button_style = "Windows"
 
--- Default Shell
-config.default_prog = {
-  "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
-}
-
-return config
+return M
